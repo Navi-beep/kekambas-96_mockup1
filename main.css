@@ -19,13 +19,27 @@ body{
 
 .box{
     width: 400px;
-    margin-top: 10px;
+    margin-top: 20px;
     padding: 20px 20px 20px 20px;
-    
-    background-color: grey;
+    border: 2px dotted lightgray;
+    background-color: white;
     text-align: left;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-self: center;
     }
+
+#text{
+    width: 100%;
+}
+
+#email{
+    width: 100%;
+}
+
+#button1{
+    border-color: lightgray;
+    background-color: #ffae00;
+    width: 100%
+}
