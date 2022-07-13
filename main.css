@@ -41,5 +41,13 @@ body{
 #button1{
     border-color: lightgray;
     background-color: #ffae00;
-    width: 100%
+    width: 100%;
+}
+
+#button2{
+    margin: 20px;
+    border-color: lightgray;
+    border-radius: 2px;
+    background-color: lightgray;
+    width: 400px;
 }
