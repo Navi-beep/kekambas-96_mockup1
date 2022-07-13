@@ -11,6 +11,8 @@ body{
     }
 
 .image{
+    margin: 40px;
+    margin-bottom: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,8 +22,9 @@ body{
 .box{
     width: 400px;
     margin-top: 20px;
-    padding: 20px 20px 20px 20px;
+    padding: 20px 40px 20px 30px;
     border: 2px dotted lightgray;
+    border-radius: 3px;
     background-color: white;
     text-align: left;
     display: flex;
@@ -48,7 +51,7 @@ body{
 }
 
 h3{
-    margin: 20px;
+    margin: 20px;     
 }
 
 #button2{
@@ -70,10 +73,14 @@ footer li{
     margin: 10px;
 }
 
+a:link{
+    text-decoration: none;
+}
+
 footer{
     margin-top: 50px;
     margin-bottom: -30px;
-    padding: 30px;
+    padding: 35px;
     height: 10px;
     border: 0px;
     box-shadow:inset 0 6px 6px -6px rgb(58, 56, 56);
@@ -81,6 +88,5 @@ footer{
 
 .copyright{
     margin: 20px;
-    padding-bottom: 5px;
     text-align: center;
 }
