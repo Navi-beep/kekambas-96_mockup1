@@ -32,22 +32,55 @@ body{
 
 #text{
     width: 100%;
+    height: 30px;
 }
 
 #email{
     width: 100%;
+    height: 30px;
 }
 
 #button1{
     border-color: lightgray;
     background-color: #ffae00;
+    height: 30px;
     width: 100%;
 }
 
-#button2{
+h3{
     margin: 20px;
+}
+
+#button2{
+    margin: -10px;
+    height: 30px;
     border-color: lightgray;
     border-radius: 2px;
     background-color: lightgray;
     width: 400px;
+}
+
+footer ul{
+    list-style-type: none;
+    margin: 0;
+}
+
+footer li{
+    display: inline;
+    margin: 10px;
+}
+
+footer{
+    margin-top: 50px;
+    margin-bottom: -30px;
+    padding: 30px;
+    height: 10px;
+    border: 0px;
+    box-shadow:inset 0 6px 6px -6px rgb(58, 56, 56);
+}
+
+.copyright{
+    margin: 20px;
+    padding-bottom: 5px;
+    text-align: center;
 }
